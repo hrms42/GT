@@ -6,7 +6,7 @@ C_FLAGS =  -fPIC -fPIC   -Wall
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/HRMS/Desktop/Gt/experiment/libigl/external/glfw/include -I/Users/HRMS/Desktop/Gt/experiment/libigl/external/glfw/src -I/Users/HRMS/Desktop/GT/experiment/src/build/glfw/src 
+C_INCLUDES = -I/Users/HRMS/Desktop/GT/libigl/external/glfw/include -I/Users/HRMS/Desktop/GT/libigl/external/glfw/src -I/Users/HRMS/Desktop/GT/src/build/glfw/src 
 
 # Custom flags: glfw/src/CMakeFiles/glfw.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

@@ -59,10 +59,10 @@ RM = /usr/local/Cellar/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/HRMS/Desktop/GT/experiment/src
+CMAKE_SOURCE_DIR = /Users/HRMS/Desktop/GT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/HRMS/Desktop/GT/experiment/src/build
+CMAKE_BINARY_DIR = /Users/HRMS/Desktop/GT/src/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/example_bin.dir
@@ -72,7 +72,7 @@ CMakeFiles/example_bin.dir/all: glad/CMakeFiles/glad.dir/all
 CMakeFiles/example_bin.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/example_bin.dir/build.make CMakeFiles/example_bin.dir/depend
 	$(MAKE) -f CMakeFiles/example_bin.dir/build.make CMakeFiles/example_bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles --progress-num=1,2 "Built target example_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/HRMS/Desktop/GT/src/build/CMakeFiles --progress-num=1,2 "Built target example_bin"
 .PHONY : CMakeFiles/example_bin.dir/all
 
 # Include target in all.
@@ -82,9 +82,9 @@ all: CMakeFiles/example_bin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example_bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/src/build/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example_bin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/src/build/CMakeFiles 0
 .PHONY : CMakeFiles/example_bin.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ glad/preinstall:
 glad/CMakeFiles/glad.dir/all:
 	$(MAKE) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/depend
 	$(MAKE) -f glad/CMakeFiles/glad.dir/build.make glad/CMakeFiles/glad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles --progress-num=3,4 "Built target glad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/HRMS/Desktop/GT/src/build/CMakeFiles --progress-num=3,4 "Built target glad"
 .PHONY : glad/CMakeFiles/glad.dir/all
 
 # Include target in all.
@@ -137,9 +137,9 @@ all: glad/CMakeFiles/glad.dir/all
 
 # Build rule for subdir invocation for target.
 glad/CMakeFiles/glad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/src/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 glad/CMakeFiles/glad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/src/build/CMakeFiles 0
 .PHONY : glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -200,7 +200,7 @@ glfw/src/preinstall:
 glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/HRMS/Desktop/GT/src/build/CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target glfw"
 .PHONY : glfw/src/CMakeFiles/glfw.dir/all
 
 # Include target in all.
@@ -210,9 +210,9 @@ all: glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/src/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/src/build/CMakeFiles 0
 .PHONY : glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.

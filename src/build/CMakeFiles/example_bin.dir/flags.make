@@ -6,5 +6,5 @@ CXX_FLAGS =  -fPIC   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/HRMS/Desktop/Gt/experiment/libigl/external/glad/include -I/Users/HRMS/Desktop/Gt/experiment/libigl/external/glfw/include -isystem /Users/HRMS/Desktop/Gt/experiment/libigl/cmake/../include -isystem /Users/HRMS/Desktop/Gt/experiment/libigl/cmake/../external/eigen 
+CXX_INCLUDES = -I/Users/HRMS/Desktop/GT/libigl/external/glad/include -I/Users/HRMS/Desktop/GT/libigl/external/glfw/include -isystem /Users/HRMS/Desktop/GT/libigl/cmake/../include -isystem /Users/HRMS/Desktop/GT/libigl/cmake/../external/eigen 
 

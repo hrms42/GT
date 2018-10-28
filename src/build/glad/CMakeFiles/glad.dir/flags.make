@@ -6,5 +6,5 @@ C_FLAGS =  -fPIC
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/HRMS/Desktop/Gt/experiment/libigl/external/glad/include 
+C_INCLUDES = -I/Users/HRMS/Desktop/GT/libigl/external/glad/include 
 

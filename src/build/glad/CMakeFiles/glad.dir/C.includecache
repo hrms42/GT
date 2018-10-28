@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/HRMS/Desktop/Gt/experiment/libigl/external/glad/include/KHR/khrplatform.h
+/Users/HRMS/Desktop/GT/libigl/external/glad/include/KHR/khrplatform.h
 stdint.h
 -
 inttypes.h
@@ -14,7 +14,7 @@ inttypes.h
 stdint.h
 -
 
-/Users/HRMS/Desktop/Gt/experiment/libigl/external/glad/include/glad/glad.h
+/Users/HRMS/Desktop/GT/libigl/external/glad/include/glad/glad.h
 windows.h
 -
 stddef.h
@@ -34,7 +34,7 @@ stdint.h
 inttypes.h
 -
 
-/Users/HRMS/Desktop/Gt/experiment/libigl/external/glad/src/glad.c
+/Users/HRMS/Desktop/GT/libigl/external/glad/src/glad.c
 stdio.h
 -
 stdlib.h

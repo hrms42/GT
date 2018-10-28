@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.12.3/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/HRMS/Desktop/GT/experiment/src
+CMAKE_SOURCE_DIR = /Users/HRMS/Desktop/GT/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/HRMS/Desktop/GT/experiment/src/build
+CMAKE_BINARY_DIR = /Users/HRMS/Desktop/GT/src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/HRMS/Desktop/GT/experiment/src/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles /Users/HRMS/Desktop/GT/experiment/src/build/glfw/CMakeFiles/progress.marks
-	cd /Users/HRMS/Desktop/GT/experiment/src/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/experiment/src/build/CMakeFiles 0
+	cd /Users/HRMS/Desktop/GT/src/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/src/build/CMakeFiles /Users/HRMS/Desktop/GT/src/build/glfw/CMakeFiles/progress.marks
+	cd /Users/HRMS/Desktop/GT/src/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/HRMS/Desktop/GT/src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/HRMS/Desktop/GT/experiment/src/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/clean
+	cd /Users/HRMS/Desktop/GT/src/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,17 +143,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/HRMS/Desktop/GT/experiment/src/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
+	cd /Users/HRMS/Desktop/GT/src/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/HRMS/Desktop/GT/experiment/src/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
+	cd /Users/HRMS/Desktop/GT/src/build && $(MAKE) -f CMakeFiles/Makefile2 glfw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/HRMS/Desktop/GT/experiment/src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/HRMS/Desktop/GT/src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -179,6 +179,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/HRMS/Desktop/GT/experiment/src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/HRMS/Desktop/GT/src/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

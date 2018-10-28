@@ -1,4 +1,4 @@
-# Install script for directory: /Users/HRMS/Desktop/Gt/experiment/libigl/external/glfw
+# Install script for directory: /Users/HRMS/Desktop/GT/libigl/external/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/HRMS/Desktop/GT/experiment/src/build/glfw/src/cmake_install.cmake")
+  include("/Users/HRMS/Desktop/GT/src/build/glfw/src/cmake_install.cmake")
 
 endif()
 

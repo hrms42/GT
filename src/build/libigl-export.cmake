@@ -61,7 +61,7 @@ add_library(igl::common INTERFACE IMPORTED)
 
 set_target_properties(igl::common PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_11"
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/HRMS/Desktop/Gt/experiment/libigl/cmake/../include;/Users/HRMS/Desktop/Gt/experiment/libigl/cmake/../external/eigen"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/HRMS/Desktop/GT/libigl/cmake/../include;/Users/HRMS/Desktop/GT/libigl/cmake/../external/eigen"
 )
 
 # This file does not depend on other imported targets which have

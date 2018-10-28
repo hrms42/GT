@@ -1,4 +1,4 @@
-# Install script for directory: /Users/HRMS/Desktop/Gt/experiment/libigl/external/glad
+# Install script for directory: /Users/HRMS/Desktop/GT/libigl/external/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
