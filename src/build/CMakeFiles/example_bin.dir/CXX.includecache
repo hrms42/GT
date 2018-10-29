@@ -1492,6 +1492,24 @@ Eigen/Dense
 colormap.cpp
 /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/colormap.cpp
 
+/Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/copyleft/marching_cubes.cpp
+marching_cubes.h
+/Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/copyleft/marching_cubes.h
+marching_cubes_tables.h
+/Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/copyleft/marching_cubes_tables.h
+unordered_map
+-
+
+/Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/copyleft/marching_cubes.h
+../igl_inline.h
+/Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/igl_inline.h
+Eigen/Core
+-
+marching_cubes.cpp
+/Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/copyleft/marching_cubes.cpp
+
+/Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/copyleft/marching_cubes_tables.h
+
 /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/cross.cpp
 cross.h
 /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/cross.h
@@ -2639,12 +2657,18 @@ vulkan/vulkan.h
 /Users/HRMS/Desktop/GT/src/view.cpp
 igl/readOFF.h
 -
+igl/copyleft/marching_cubes.h
+-
 igl/opengl/glfw/Viewer.h
 -
 igl/implicit_primitives.cpp
 -
 igl/avg_edge_length.h
 -
+igl/writeOFF.h
+-
 iostream
+-
+cmath
 -
 

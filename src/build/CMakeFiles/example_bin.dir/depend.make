@@ -287,6 +287,9 @@ CMakeFiles/example_bin.dir/view.cpp.o: /Users/HRMS/Desktop/GT/libigl/cmake/../in
 CMakeFiles/example_bin.dir/view.cpp.o: /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/colon.h
 CMakeFiles/example_bin.dir/view.cpp.o: /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/colormap.cpp
 CMakeFiles/example_bin.dir/view.cpp.o: /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/colormap.h
+CMakeFiles/example_bin.dir/view.cpp.o: /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/copyleft/marching_cubes.cpp
+CMakeFiles/example_bin.dir/view.cpp.o: /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/copyleft/marching_cubes.h
+CMakeFiles/example_bin.dir/view.cpp.o: /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/copyleft/marching_cubes_tables.h
 CMakeFiles/example_bin.dir/view.cpp.o: /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/cross.cpp
 CMakeFiles/example_bin.dir/view.cpp.o: /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/cross.h
 CMakeFiles/example_bin.dir/view.cpp.o: /Users/HRMS/Desktop/GT/libigl/cmake/../include/igl/deprecated.h
