@@ -2654,7 +2654,7 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
-/Users/HRMS/Desktop/GT/src/view.cpp
+/Users/HRMS/Desktop/GT/src/main.cpp
 igl/readOFF.h
 -
 igl/copyleft/marching_cubes.h

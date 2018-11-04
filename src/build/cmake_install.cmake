@@ -56,6 +56,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/HRMS/Desktop/GT/src/build/glad/cmake_install.cmake")
   include("/Users/HRMS/Desktop/GT/src/build/glfw/cmake_install.cmake")
+  include("/Users/HRMS/Desktop/GT/src/build/Sphere/cmake_install.cmake")
+  include("/Users/HRMS/Desktop/GT/src/build/SimpleBoxCylinder/cmake_install.cmake")
+  include("/Users/HRMS/Desktop/GT/src/build/Cylinder/cmake_install.cmake")
 
 endif()
 

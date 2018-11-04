@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/HRMS/Desktop/GT/src/view.cpp" "/Users/HRMS/Desktop/GT/src/build/CMakeFiles/example_bin.dir/view.cpp.o"
+  "/Users/HRMS/Desktop/GT/src/main.cpp" "/Users/HRMS/Desktop/GT/src/build/CMakeFiles/example_bin.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -fPIC -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Sphere_bin.dir/main.cpp.o  -o ../Sphere_bin -framework OpenGL ../glad/libglad.a ../glfw/src/libglfw3.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework CoreVideo 

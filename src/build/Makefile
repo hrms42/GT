@@ -157,19 +157,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named example_bin
-
-# Build rule for target.
-example_bin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_bin
-.PHONY : example_bin
-
-# fast build rule for target.
-example_bin/fast:
-	$(MAKE) -f CMakeFiles/example_bin.dir/build.make CMakeFiles/example_bin.dir/build
-.PHONY : example_bin/fast
-
-#=============================================================================
 # Target rules for targets named glad
 
 # Build rule for target.
@@ -195,32 +182,44 @@ glfw/fast:
 	$(MAKE) -f glfw/src/CMakeFiles/glfw.dir/build.make glfw/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
-view.o: view.cpp.o
+#=============================================================================
+# Target rules for targets named Sphere_bin
 
-.PHONY : view.o
+# Build rule for target.
+Sphere_bin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Sphere_bin
+.PHONY : Sphere_bin
 
-# target to build an object file
-view.cpp.o:
-	$(MAKE) -f CMakeFiles/example_bin.dir/build.make CMakeFiles/example_bin.dir/view.cpp.o
-.PHONY : view.cpp.o
+# fast build rule for target.
+Sphere_bin/fast:
+	$(MAKE) -f Sphere/CMakeFiles/Sphere_bin.dir/build.make Sphere/CMakeFiles/Sphere_bin.dir/build
+.PHONY : Sphere_bin/fast
 
-view.i: view.cpp.i
+#=============================================================================
+# Target rules for targets named SimpleBoxCylinder_bin
 
-.PHONY : view.i
+# Build rule for target.
+SimpleBoxCylinder_bin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SimpleBoxCylinder_bin
+.PHONY : SimpleBoxCylinder_bin
 
-# target to preprocess a source file
-view.cpp.i:
-	$(MAKE) -f CMakeFiles/example_bin.dir/build.make CMakeFiles/example_bin.dir/view.cpp.i
-.PHONY : view.cpp.i
+# fast build rule for target.
+SimpleBoxCylinder_bin/fast:
+	$(MAKE) -f SimpleBoxCylinder/CMakeFiles/SimpleBoxCylinder_bin.dir/build.make SimpleBoxCylinder/CMakeFiles/SimpleBoxCylinder_bin.dir/build
+.PHONY : SimpleBoxCylinder_bin/fast
 
-view.s: view.cpp.s
+#=============================================================================
+# Target rules for targets named Cylinder_bin
 
-.PHONY : view.s
+# Build rule for target.
+Cylinder_bin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cylinder_bin
+.PHONY : Cylinder_bin
 
-# target to generate assembly for a file
-view.cpp.s:
-	$(MAKE) -f CMakeFiles/example_bin.dir/build.make CMakeFiles/example_bin.dir/view.cpp.s
-.PHONY : view.cpp.s
+# fast build rule for target.
+Cylinder_bin/fast:
+	$(MAKE) -f Cylinder/CMakeFiles/Cylinder_bin.dir/build.make Cylinder/CMakeFiles/Cylinder_bin.dir/build
+.PHONY : Cylinder_bin/fast
 
 # Help Target
 help:
@@ -232,14 +231,13 @@ help:
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... example_bin"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... glad"
 	@echo "... glfw"
-	@echo "... view.o"
-	@echo "... view.i"
-	@echo "... view.s"
+	@echo "... Sphere_bin"
+	@echo "... SimpleBoxCylinder_bin"
+	@echo "... Cylinder_bin"
 .PHONY : help
 
 

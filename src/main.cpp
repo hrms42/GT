@@ -64,7 +64,7 @@ int main( int argc, char *argv[] )
   x_min = y_min = z_min =  99999.0;
   
   for(int i = 0 ; i < V.rows() ; i++ ){
-     if( x_max < V(i,0) ) x_max = V(i,0);
+         if( x_max < V(i,0) ) x_max = V(i,0);
 	 if( y_max < V(i,1) ) y_max = V(i,1);
 	 if( z_max < V(i,2) ) z_max = V(i,2);
 	 if( x_min > V(i,0) ) x_min = V(i,0);

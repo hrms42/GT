@@ -247,6 +247,12 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+Cylinder_BINARY_DIR:STATIC=/Users/HRMS/Desktop/GT/src/build/Cylinder
+
+//Value Computed by CMake
+Cylinder_SOURCE_DIR:STATIC=/Users/HRMS/Desktop/GT/src/Cylinder
+
+//Value Computed by CMake
 GLFW_BINARY_DIR:STATIC=/Users/HRMS/Desktop/GT/src/build/glfw
 
 //Build the GLFW documentation
@@ -336,6 +342,18 @@ OPENGL_gl_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
 
 //GLU library for OS X (usually same as OpenGL library)
 OPENGL_glu_LIBRARY:FILEPATH=/System/Library/Frameworks/OpenGL.framework
+
+//Value Computed by CMake
+SimpleBoxCylinder_BINARY_DIR:STATIC=/Users/HRMS/Desktop/GT/src/build/SimpleBoxCylinder
+
+//Value Computed by CMake
+SimpleBoxCylinder_SOURCE_DIR:STATIC=/Users/HRMS/Desktop/GT/src/SimpleBoxCylinder
+
+//Value Computed by CMake
+Sphere_BINARY_DIR:STATIC=/Users/HRMS/Desktop/GT/src/build/Sphere
+
+//Value Computed by CMake
+Sphere_SOURCE_DIR:STATIC=/Users/HRMS/Desktop/GT/src/Sphere
 
 //Path to a file.
 VULKAN_INCLUDE_DIR:PATH=VULKAN_INCLUDE_DIR-NOTFOUND
@@ -489,7 +507,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
